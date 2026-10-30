@@ -1,0 +1,43 @@
+name: Publish module
+on:
+  workflow_dispatch:
+    inputs:
+      module_id:
+        description: One module ID (for example spotify)
+        required: true
+        type: string
+      source_ref:
+        description: Source branch, tag or commit
+        required: true
+        default: main
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: module-catalogue-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: windows-latest
+    env:
+      MODULE_ID: ${{ inputs.module_id }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: distribution
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Sethani/StreamerCompanion
+          ref: ${{ inputs.source_ref }}
+          path: source
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: source/companion/package-lock.json
+      - run: npm --prefix source/companion ci --omit=dev --ignore-scripts
+      - name: Build and publish only the selected module
+        shell: pwsh
+        run: node source/scripts/publish-module.js "$env:MODULE_ID" "$env:GITHUB_WORKSPACE/distribution"

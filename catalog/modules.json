@@ -2,6 +2,42 @@
   "schemaVersion": 1,
   "modules": [
     {
+      "id": "source-modules",
+      "name": "Source Modules",
+      "version": "1.0.0",
+      "description": "Preserved Streamer.bot scene routing for installed module overlays.",
+      "author": "Sethani",
+      "category": "System",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.0.0"
+        },
+        "optionalModules": {},
+        "capabilities": {},
+        "companion": ">=1.2.0"
+      },
+      "provides": [
+        "source-modules"
+      ],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Module Routing - Engine",
+          "Module Routing - Initialize",
+          "Module Routing - Save",
+          "Module Routing - Scene Changed"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/source-modules-v1.0.0/source-modules-1.0.0.streammodule",
+        "sha256": "8e88440f69f9bb636e9b86a73f50e8b226f3a96e74794ba72ca26855af016860"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "9ee80f7bbdb7369730264357b07c76f5168f89f1"
+      }
+    },
+    {
       "id": "spotify",
       "name": "Spotify Music",
       "version": "2.0.1",

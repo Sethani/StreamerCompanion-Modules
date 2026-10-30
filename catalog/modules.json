@@ -70,6 +70,37 @@
       }
     },
     {
+      "id": "universal-overlay",
+      "name": "Universal Overlay",
+      "version": "1.0.0",
+      "description": "Manifest-driven browser overlay with explicit scene routing.",
+      "author": "Sethani",
+      "category": "System",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.0.0"
+        },
+        "optionalModules": {},
+        "capabilities": {},
+        "companion": ">=1.2.0"
+      },
+      "provides": [
+        "universal-overlay"
+      ],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": []
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/universal-overlay-v1.0.0/universal-overlay-1.0.0.streammodule",
+        "sha256": "0a42fb4005cb8a9879e949389bbfba79c677890d6f8eb9a3bf36f8b98335ccbd"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "9ee80f7bbdb7369730264357b07c76f5168f89f1"
+      }
+    },
+    {
       "id": "update-probe",
       "name": "Update Probe",
       "version": "1.0.2",

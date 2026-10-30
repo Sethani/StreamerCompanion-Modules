@@ -168,19 +168,19 @@
     {
       "id": "video",
       "name": "Video",
-      "version": "2.1.1",
+      "version": "2.2.0",
       "description": "Owned video playback, titles, presentation settings, and overlay tests.",
       "author": "Sethani",
       "category": "Effects",
       "dependencies": {
-        "modules": {},
-        "optionalModules": {},
-        "capabilities": {
-          "streamerbot-websocket": "required",
-          "universal-overlay": "required",
-          "universal-dock": "required"
+        "modules": {
+          "universal-dock": "^1.0.0",
+          "universal-overlay": "^1.0.0",
+          "source-modules": "^1.0.0"
         },
-        "companion": ">=1.1.0"
+        "optionalModules": {},
+        "capabilities": {},
+        "companion": ">=1.2.0"
       },
       "provides": [],
       "streamerbot": {
@@ -195,12 +195,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/video-v2.1.1/video-2.1.1.streammodule",
-        "sha256": "cc9c91517648164694ad713817b9357f4a0dbc897b4cd240d08d066e6756cbbe"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/video-v2.2.0/video-2.2.0.streammodule",
+        "sha256": "24940e56e61ba4bc5522336f33220d5a4cfdffd9d3d6ce3a008b5c385386927e"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "612f06e96b22107a0d47abb525f735e3e3a0e4da"
+        "commit": "9ee80f7bbdb7369730264357b07c76f5168f89f1"
       }
     }
   ]

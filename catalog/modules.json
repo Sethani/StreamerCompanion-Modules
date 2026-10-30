@@ -38,6 +38,44 @@
         "repository": "Sethani/StreamerCompanion",
         "commit": "612f06e96b22107a0d47abb525f735e3e3a0e4da"
       }
+    },
+    {
+      "id": "video",
+      "name": "Video",
+      "version": "2.1.1",
+      "description": "Owned video playback, titles, presentation settings, and overlay tests.",
+      "author": "Sethani",
+      "category": "Effects",
+      "dependencies": {
+        "modules": {},
+        "optionalModules": {},
+        "capabilities": {
+          "streamerbot-websocket": "required",
+          "universal-overlay": "required",
+          "universal-dock": "required"
+        },
+        "companion": ">=1.1.0"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Video - Engine",
+          "Video - Initialize",
+          "Video - Health",
+          "Video - Configure",
+          "Video - Play",
+          "Video - Stop"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/video-v2.1.1/video-2.1.1.streammodule",
+        "sha256": "cc9c91517648164694ad713817b9357f4a0dbc897b4cd240d08d066e6756cbbe"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "612f06e96b22107a0d47abb525f735e3e3a0e4da"
+      }
     }
   ]
 }

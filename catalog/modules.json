@@ -40,6 +40,35 @@
       }
     },
     {
+      "id": "update-probe",
+      "name": "Update Probe",
+      "version": "1.0.1",
+      "description": "Tests module installation and updates without connecting to stream services.",
+      "author": "Sethani",
+      "category": "System",
+      "dependencies": {
+        "modules": {},
+        "optionalModules": {},
+        "capabilities": {
+          "embedded-node": "required"
+        },
+        "companion": ">=1.1.0"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": []
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/update-probe-v1.0.1/update-probe-1.0.1.streammodule",
+        "sha256": "c6cd2da28f26085696865e0e2e53416affef7a7dc28941f4e70294484fab8bc3"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "612f06e96b22107a0d47abb525f735e3e3a0e4da"
+      }
+    },
+    {
       "id": "video",
       "name": "Video",
       "version": "2.1.1",

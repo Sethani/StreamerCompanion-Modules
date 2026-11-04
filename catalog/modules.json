@@ -4,7 +4,7 @@
     {
       "id": "archipelago",
       "name": "Archipelago",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Choose Controller rooms and slots for a clean progress, logic and activity overlay.",
       "author": "Sethani",
       "category": "Games",
@@ -29,12 +29,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/archipelago-v1.0.0/archipelago-1.0.0.streammodule",
-        "sha256": "71dfcd006b86344f32e0df213482d5642d32ef865f092fa3cff6f392eefbb983"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/archipelago-v1.0.1/archipelago-1.0.1.streammodule",
+        "sha256": "915edc443f23b5bdbf3ebcfebba012bbb964949852861e31b3df28b227f4e36d"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "15d888422f254fce5072c491b1720b3bd1dacfa7"
+        "commit": "338906391cd92802545f43536c6f7df374013cb7"
       }
     },
     {

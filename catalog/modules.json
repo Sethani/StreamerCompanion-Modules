@@ -38,6 +38,46 @@
       }
     },
     {
+      "id": "pokemon-encounters",
+      "name": "Pokemon Encounters",
+      "version": "1.7.0",
+      "description": "Shows Pokemon Community Game encounters, type icons, and animated viewer ball throws.",
+      "author": "Sethani",
+      "category": "Effects",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.0.0"
+        },
+        "optionalModules": {
+          "universal-overlay": "^1.0.0",
+          "source-modules": "^1.0.0"
+        },
+        "capabilities": {
+          "embedded-node": "required"
+        },
+        "companion": ">=1.2.2"
+      },
+      "provides": [
+        "pokemon-encounters",
+        "pokemon-art-cache"
+      ],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Pokemon Encounters - Chat",
+          "Pokemon Encounters - Initialize"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/pokemon-encounters-v1.7.0/pokemon-encounters-1.7.0.streammodule",
+        "sha256": "4df496491b41a67aca3fb6119addf2258acf27e1f22d4fb4289464731488a8d4"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "def9bf04f729c73590e75a155a55ac08df14effd"
+      }
+    },
+    {
       "id": "source-modules",
       "name": "Source Modules",
       "version": "1.0.0",

@@ -38,6 +38,40 @@
       }
     },
     {
+      "id": "chat-routing",
+      "name": "Chat Routing",
+      "version": "1.0.0",
+      "description": "Shared bot-account chat and reply routing for installed Streamer.bot modules.",
+      "author": "Sethani",
+      "category": "Chat",
+      "dependencies": {
+        "modules": {},
+        "optionalModules": {},
+        "capabilities": {},
+        "companion": ">=1.2.2"
+      },
+      "provides": [
+        "chat-routing"
+      ],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Chat - All Platforms",
+          "Chat - Twitch",
+          "Chat - Engine",
+          "Chat - Twitch Send"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/chat-routing-v1.0.0/chat-routing-1.0.0.streammodule",
+        "sha256": "dd15d73acc1f9ad0dcd5c8af70c54cf966f4b121de217a5c05fa98fd9bc09ec8"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "c1ab58d137becd7d6a3e4be9c1fca40185de53fe"
+      }
+    },
+    {
       "id": "controller-input",
       "name": "Controller",
       "version": "1.1.0",

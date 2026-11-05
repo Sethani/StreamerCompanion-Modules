@@ -225,6 +225,50 @@
       }
     },
     {
+      "id": "reminders",
+      "name": "Reminders",
+      "version": "1.0.0",
+      "description": "Private viewer reminder backlogs with chat commands, dock management and an intentional combined-overlay display.",
+      "author": "Sethani",
+      "category": "People",
+      "dependencies": {
+        "modules": {
+          "chat-routing": "^1.0.1",
+          "universal-dock": "^1.1.0"
+        },
+        "optionalModules": {
+          "source-modules": "^1.0.0",
+          "universal-overlay": "^1.0.0"
+        },
+        "capabilities": {},
+        "companion": ">=1.3.0"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Reminders - Engine",
+          "Reminders - Initialize",
+          "Reminders - Health",
+          "Reminders - Add",
+          "Reminders - List Mine",
+          "Reminders - Show",
+          "Reminders - Hide",
+          "Reminders - Complete",
+          "Reminders - Restore",
+          "Reminders - Delete"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/reminders-v1.0.0/reminders-1.0.0.streammodule",
+        "sha256": "029dac8b8909e05ce2747a91f6e172c218ad7945f94d3f11e4332e9f7442ed78"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "66a7a8d4c9aab6902eb2c38280ba1acc443c8413"
+      }
+    },
+    {
       "id": "source-modules",
       "name": "Source Modules",
       "version": "1.0.0",

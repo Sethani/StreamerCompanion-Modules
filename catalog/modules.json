@@ -76,6 +76,47 @@
       }
     },
     {
+      "id": "countdown",
+      "name": "Countdown",
+      "version": "1.1.0",
+      "description": "Start, pause, resume and clear a countdown in the combined overlay using Streamer.bot state.",
+      "author": "Sethani",
+      "category": "Stream",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.0.0"
+        },
+        "optionalModules": {
+          "universal-overlay": "^1.0.0",
+          "source-modules": "^1.0.0"
+        },
+        "capabilities": {},
+        "companion": ">=1.2.2"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Countdown - Engine",
+          "Countdown - Initialize",
+          "Countdown - Start",
+          "Countdown - Pause",
+          "Countdown - Resume",
+          "Countdown - Clear",
+          "Countdown - Configure",
+          "Countdown - Health"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/countdown-v1.1.0/countdown-1.1.0.streammodule",
+        "sha256": "bcdaf3751f0212f6d13e5c09e2100b466a82884cc5e637c67ed508d86ac4cba9"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "aff3de79705022f2301e14c1ad90e2b73d640554"
+      }
+    },
+    {
       "id": "pokemon-encounters",
       "name": "Pokemon Encounters",
       "version": "1.7.0",

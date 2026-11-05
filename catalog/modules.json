@@ -38,6 +38,44 @@
       }
     },
     {
+      "id": "controller-input",
+      "name": "Controller",
+      "version": "1.1.0",
+      "description": "Native controller input and the existing gamepad display in the combined stream overlay.",
+      "author": "Sethani",
+      "category": "Effects",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.0.0"
+        },
+        "optionalModules": {
+          "universal-overlay": "^1.0.0",
+          "source-modules": "^1.0.0"
+        },
+        "capabilities": {
+          "windows": "required",
+          "powershell": "required",
+          "embedded-node": "required"
+        },
+        "companion": ">=1.2.2"
+      },
+      "provides": [
+        "controller-input"
+      ],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": []
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/controller-input-v1.1.0/controller-input-1.1.0.streammodule",
+        "sha256": "e9f06c12e98334be5386f507a9661a3acaab44db5a28e799ec7ce07f621e4336"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "3fee82bd9dd8ddd05f2dfd71dd7ec24d971779c3"
+      }
+    },
+    {
       "id": "pokemon-encounters",
       "name": "Pokemon Encounters",
       "version": "1.7.0",

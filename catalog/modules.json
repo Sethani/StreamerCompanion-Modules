@@ -38,6 +38,40 @@
       }
     },
     {
+      "id": "chat-core",
+      "name": "Live Chatbox",
+      "version": "1.0.0",
+      "description": "The existing stream-chat design with live chat, moderation, pronouns and PluralMind, independent of the archive.",
+      "author": "Sethani",
+      "category": "Chat",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.0.0"
+        },
+        "optionalModules": {},
+        "capabilities": {
+          "embedded-node": "required"
+        },
+        "companion": ">=1.3.0"
+      },
+      "provides": [
+        "chat-core",
+        "chat-enrichment"
+      ],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": []
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/chat-core-v1.0.0/chat-core-1.0.0.streammodule",
+        "sha256": "2cc19a0e4621f707486772d802a109aeb8955e5ad9832bae42fc281b968257d9"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "3cbe393ceacb3efd24d526cfcaed0b0a1f7fd80b"
+      }
+    },
+    {
       "id": "chat-routing",
       "name": "Chat Routing",
       "version": "1.0.1",

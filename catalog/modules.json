@@ -185,6 +185,50 @@
       }
     },
     {
+      "id": "named-timers",
+      "name": "Named Timers",
+      "version": "1.0.0",
+      "description": "Named and queued language timers using the established Streamer.bot globals, chat command and transparent overlay.",
+      "author": "Sethani",
+      "category": "Activities",
+      "dependencies": {
+        "modules": {
+          "chat-routing": "^1.0.1",
+          "universal-dock": "^1.1.0"
+        },
+        "optionalModules": {
+          "source-modules": "^1.0.0",
+          "universal-overlay": "^1.0.0"
+        },
+        "capabilities": {},
+        "companion": ">=1.3.0"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Named Timers - Engine",
+          "Named Timers - Initialize",
+          "Named Timers - Health",
+          "Timer_Add",
+          "Timer_Check",
+          "Timer_Command",
+          "Timers - Publish Overlay State",
+          "Named Timers - Queue Language",
+          "Named Timers - Check Languages",
+          "Named Timers - Language Trigger Adapter"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/named-timers-v1.0.0/named-timers-1.0.0.streammodule",
+        "sha256": "2c73c41d52143895f899f896f0ad6ee6233ac9c42862aed2fee5c4a2ab20d79d"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "5c24711777960f8988cbf5ec07a9c0a0baf63325"
+      }
+    },
+    {
       "id": "pokemon-encounters",
       "name": "Pokemon Encounters",
       "version": "1.7.0",

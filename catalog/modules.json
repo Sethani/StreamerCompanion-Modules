@@ -386,7 +386,7 @@
     {
       "id": "spotify",
       "name": "Spotify Music",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "description": "Spotify playback, countdown fading, scene-owned music, and viewer song information.",
       "author": "Sethani",
       "category": "Stream",
@@ -413,12 +413,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/spotify-v2.0.1/spotify-2.0.1.streammodule",
-        "sha256": "5692659864d3dee18cc21a0cb654b3219672ef163b199c20720debe24b4682b8"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/spotify-v2.0.2/spotify-2.0.2.streammodule",
+        "sha256": "5256b178cc06d09e840a0269c6d031ff0f1fe0e95cd7e51187753dc81b624800"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "612f06e96b22107a0d47abb525f735e3e3a0e4da"
+        "commit": "8f27b89e29326172e68c272579f989b84038216e"
       }
     },
     {

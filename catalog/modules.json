@@ -269,6 +269,46 @@
       }
     },
     {
+      "id": "redeem-checklist",
+      "name": "Redeem Checklist",
+      "version": "1.0.0",
+      "description": "Private dock management for pending channel-point requests with coordinated Named Timers language routing.",
+      "author": "Sethani",
+      "category": "People",
+      "dependencies": {
+        "modules": {
+          "named-timers": "^1.0.0",
+          "universal-dock": "^1.1.0"
+        },
+        "optionalModules": {},
+        "capabilities": {},
+        "companion": ">=1.3.0"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Redeems - Engine",
+          "Redeems - Initialize",
+          "Redeems - Health",
+          "Redeems - Add",
+          "Redeems - Resolve",
+          "Redeems - Route Managed Redemption",
+          "Redeems - Check Timers and Retry",
+          "Redeems - Resolve Requested",
+          "Redeems - Trigger Adapter"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/redeem-checklist-v1.0.0/redeem-checklist-1.0.0.streammodule",
+        "sha256": "4260a4f219d43580f8e19d434abf2ed91ffa95b39c7865c549957a41ddd60d9d"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "ef1190580df387ebe71c4d5fdecdd0ece7443183"
+      }
+    },
+    {
       "id": "reminders",
       "name": "Reminders",
       "version": "1.0.1",

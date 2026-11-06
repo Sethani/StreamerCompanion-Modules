@@ -503,6 +503,46 @@
         "repository": "Sethani/StreamerCompanion",
         "commit": "9ee80f7bbdb7369730264357b07c76f5168f89f1"
       }
+    },
+    {
+      "id": "wheel",
+      "name": "Wheel",
+      "version": "2.1.0",
+      "description": "Weighted profile wheels with the established editor, animation, result sound and trigger-ready Streamer.bot adapter.",
+      "author": "Sethani",
+      "category": "Activities",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.1.0"
+        },
+        "optionalModules": {
+          "source-modules": "^1.0.0",
+          "universal-overlay": "^1.0.0"
+        },
+        "capabilities": {},
+        "companion": ">=1.3.0"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Wheel - Engine",
+          "Wheel - Initialize",
+          "Wheel - Configure",
+          "Wheel - Health",
+          "Wheel - Spin",
+          "Wheel - Clear",
+          "Wheel - Trigger Adapter"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/wheel-v2.1.0/wheel-2.1.0.streammodule",
+        "sha256": "acc6b195a75573dd875b08b74a14147f37f871d108ff5460d111da8363c81b87"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "2c9530481fc2e723f6ea6eb9901f6b46aa22c478"
+      }
     }
   ]
 }

@@ -589,6 +589,56 @@
       }
     },
     {
+      "id": "walk-ons",
+      "name": "Walk Ons",
+      "version": "2.1.0",
+      "description": "First-chat viewer entrances with private audio, weighted pools, optional video, and once-per-stream eligibility.",
+      "author": "Sethani",
+      "category": "People",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.1.1"
+        },
+        "optionalModules": {
+          "source-modules": "^1.0.0",
+          "universal-overlay": "^1.0.0",
+          "video": "^2.2.0"
+        },
+        "capabilities": {},
+        "companion": ">=1.3.1"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Walk Ons - Engine",
+          "Walk Ons - Initialize",
+          "Walk Ons - Health",
+          "Walk Ons - Configure",
+          "Walk Ons - Upsert",
+          "Walk Ons - Delete",
+          "Walk Ons - Add",
+          "Walk Ons - Remove",
+          "Walk Ons - List",
+          "Walk Ons - Chat Watcher",
+          "Walk Ons - Reset Session",
+          "Walk Ons - Test",
+          "Walk-on Sound - Engine",
+          "Walk-on Sound - Initialize",
+          "Walk-on Sound - Play",
+          "Walk-on Sound - Stop"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/walk-ons-v2.1.0/walk-ons-2.1.0.streammodule",
+        "sha256": "d13d47c4fc3ede1888cdc43d69abd76a2766f5f86c61a515d0e7d8c1035c04fd"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "953271a8c466140f10fc113ee19a886645b61164"
+      }
+    },
+    {
       "id": "wheel",
       "name": "Wheel",
       "version": "2.1.1",

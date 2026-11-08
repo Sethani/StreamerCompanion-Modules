@@ -224,7 +224,7 @@
     {
       "id": "countdown",
       "name": "Countdown",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "Start, pause, resume and clear a countdown in the combined overlay using Streamer.bot state.",
       "author": "Sethani",
       "category": "Stream",
@@ -254,12 +254,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/countdown-v1.1.0/countdown-1.1.0.streammodule",
-        "sha256": "bcdaf3751f0212f6d13e5c09e2100b466a82884cc5e637c67ed508d86ac4cba9"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/countdown-v1.1.1/countdown-1.1.1.streammodule",
+        "sha256": "b3c22ea079731f08f5e9f121656b448b36ac95178f1f025afaf6c84884d2b617"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "aff3de79705022f2301e14c1ad90e2b73d640554"
+        "commit": "0e48d7891a6b2ddaeafbd7963cffd47896b1fe10"
       }
     },
     {

@@ -469,6 +469,45 @@
       }
     },
     {
+      "id": "scene-bindings",
+      "name": "Scene Links",
+      "version": "2.0.0",
+      "description": "Existing scene-linked Twitch categories and Windows window focus.",
+      "author": "Sethani",
+      "category": "Stream",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.1.1"
+        },
+        "optionalModules": {},
+        "capabilities": {},
+        "companion": ">=1.3.1"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Scene Links - Engine",
+          "Scene Links - Initialize",
+          "Scene Links - Refresh",
+          "Scene Links - Save",
+          "Scene Links - Apply",
+          "Scene Links - Test Focus",
+          "Scene Links - Test Category",
+          "Scene Links - Monitor",
+          "Scene Links - Scene Changed"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/scene-bindings-v2.0.0/scene-bindings-2.0.0.streammodule",
+        "sha256": "e6f584f95dc6cfd3814894c0b19ec2b359cf7dc58766ad47ec5a2edcae8d23be"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "14b0e16cd25b82d7d17acd8b8a777d95d18e99e1"
+      }
+    },
+    {
       "id": "shoutout-clips",
       "name": "Shoutout Clips",
       "version": "2.1.0",

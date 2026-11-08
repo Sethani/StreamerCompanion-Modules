@@ -152,7 +152,7 @@
     {
       "id": "chat-routing",
       "name": "Chat Routing",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Shared bot-account chat and reply routing for installed Streamer.bot modules.",
       "author": "Sethani",
       "category": "Chat",
@@ -175,12 +175,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/chat-routing-v1.0.1/chat-routing-1.0.1.streammodule",
-        "sha256": "943a8aff873ea09e90abe0a1516b6f2fbf7efab4cb2b8a761fcf7643038710c8"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/chat-routing-v1.0.2/chat-routing-1.0.2.streammodule",
+        "sha256": "b612a3694b8846b3c087b9a3579527fc310e346c100d57f389cb10f8faa470cb"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "559f1de90c46242f4e02229a4e14eeff19c2c7f7"
+        "commit": "b59c7983e192d83f9cb66e6672b7ba870bb653f0"
       }
     },
     {

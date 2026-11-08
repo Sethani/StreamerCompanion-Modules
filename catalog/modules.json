@@ -752,7 +752,7 @@
     {
       "id": "video",
       "name": "Video",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "description": "Owned video playback, titles, presentation settings, and overlay tests.",
       "author": "Sethani",
       "category": "Effects",
@@ -779,12 +779,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/video-v2.2.0/video-2.2.0.streammodule",
-        "sha256": "24940e56e61ba4bc5522336f33220d5a4cfdffd9d3d6ce3a008b5c385386927e"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/video-v2.2.1/video-2.2.1.streammodule",
+        "sha256": "d0a5e73d8ee002ea8a5d63aeb11c14c8a265fcb3539e598f117ec275da11a544"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "9ee80f7bbdb7369730264357b07c76f5168f89f1"
+        "commit": "a9a9092962ce5e630f3db8862047c11ff97dca9b"
       }
     },
     {

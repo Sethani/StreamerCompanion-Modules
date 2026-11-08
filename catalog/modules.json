@@ -40,7 +40,7 @@
     {
       "id": "audio-routing",
       "name": "Audio Routing",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "description": "Existing OBS live/VOD track classifications, explicit Save/Apply and game-audio toggle.",
       "author": "Sethani",
       "category": "Stream",
@@ -65,12 +65,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/audio-routing-v2.0.0/audio-routing-2.0.0.streammodule",
-        "sha256": "b8da385d2413d4f599cd1ce5079a38ced112161df023bbbd820dfd5b59a8d0cb"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/audio-routing-v2.0.1/audio-routing-2.0.1.streammodule",
+        "sha256": "420c17ac311b583cfd790a7ae8036f7ed1cc6e85c08e39aa1ad171c356c28a34"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "44e40c7d336341418d0321c95b0a57a516775173"
+        "commit": "a9a9092962ce5e630f3db8862047c11ff97dca9b"
       }
     },
     {

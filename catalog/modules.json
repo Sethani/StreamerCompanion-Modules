@@ -348,6 +348,45 @@
       }
     },
     {
+      "id": "shoutout-clips",
+      "name": "Shoutout Clips",
+      "version": "2.1.0",
+      "description": "Existing Twitch clip presentation, title styling, duration, mute and shared-overlay playback.",
+      "author": "Sethani",
+      "category": "Effects",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.1.1"
+        },
+        "optionalModules": {
+          "source-modules": "^1.0.0",
+          "universal-overlay": "^1.0.0"
+        },
+        "capabilities": {},
+        "companion": ">=1.3.1"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Shoutout Clips - Engine",
+          "Shoutout Clips - Initialize",
+          "Shoutout Clips - Health",
+          "Shoutout Clips - Configure",
+          "Shoutout Clips - Play",
+          "Shoutout Clips - Stop"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/shoutout-clips-v2.1.0/shoutout-clips-2.1.0.streammodule",
+        "sha256": "1d4db3d19d2c0fa4c96f228afefa41585a2c12fb48b6e8ac5f55d1e72563679f"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "2b69694227d2b87824fa00ba5d268a05261b9428"
+      }
+    },
+    {
       "id": "source-modules",
       "name": "Source Modules",
       "version": "1.0.0",

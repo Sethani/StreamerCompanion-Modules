@@ -307,6 +307,37 @@
       }
     },
     {
+      "id": "phone-deck",
+      "name": "Phone Deck",
+      "version": "2.0.0",
+      "description": "Editable HTTPS handset deck with independent OBS controls and optional module contributions.",
+      "author": "Sethani",
+      "category": "Stream",
+      "dependencies": {
+        "modules": {},
+        "optionalModules": {},
+        "capabilities": {
+          "embedded-node": "required"
+        },
+        "companion": ">=1.3.1"
+      },
+      "provides": [
+        "phone-deck"
+      ],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": []
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/phone-deck-v2.0.0/phone-deck-2.0.0.streammodule",
+        "sha256": "ff01412da0152619586ca08f1c19f4b388011365706ee898005ce8b1d13ebdae"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "233e5b17fe7527196ffcd8a9786ae793b032c975"
+      }
+    },
+    {
       "id": "pokemon-encounters",
       "name": "Pokemon Encounters",
       "version": "1.7.0",

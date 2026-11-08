@@ -38,6 +38,42 @@
       }
     },
     {
+      "id": "audio-routing",
+      "name": "Audio Routing",
+      "version": "2.0.0",
+      "description": "Existing OBS live/VOD track classifications, explicit Save/Apply and game-audio toggle.",
+      "author": "Sethani",
+      "category": "Stream",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.1.1"
+        },
+        "optionalModules": {},
+        "capabilities": {},
+        "companion": ">=1.3.1"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Audio Routing - Engine",
+          "Audio Routing - Initialize",
+          "Audio Routing - Refresh",
+          "Audio Routing - Save",
+          "Audio Routing - Apply",
+          "Audio Routing - Toggle"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/audio-routing-v2.0.0/audio-routing-2.0.0.streammodule",
+        "sha256": "b8da385d2413d4f599cd1ce5079a38ced112161df023bbbd820dfd5b59a8d0cb"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "44e40c7d336341418d0321c95b0a57a516775173"
+      }
+    },
+    {
       "id": "cameras",
       "name": "Cameras",
       "version": "2.0.1",

@@ -40,7 +40,7 @@
     {
       "id": "cameras",
       "name": "Cameras",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "description": "Native OBS camera modes, private source mappings and read-only scene inventory.",
       "author": "Sethani",
       "category": "Stream",
@@ -71,12 +71,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/cameras-v2.0.0/cameras-2.0.0.streammodule",
-        "sha256": "0b1db6c79d3ffae2a84d1abaddc987b53906a037b280327727c86a4bb8489802"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/cameras-v2.0.1/cameras-2.0.1.streammodule",
+        "sha256": "55b800a5d735ba66cc518ea4ecc36110c4cbb8dd8eb591f0f6b1dc5776d0f286"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "11c10d600af9de2eff750483db483aac5cdb4b80"
+        "commit": "878b86ff131b8b4c3e61ca95620c9bfef61d4d5b"
       }
     },
     {

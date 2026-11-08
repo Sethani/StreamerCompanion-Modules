@@ -269,6 +269,49 @@
       }
     },
     {
+      "id": "reactive",
+      "name": "Reactive Guests",
+      "version": "2.1.0",
+      "description": "The established ordered reactive guest lineup, private roster and presentation controls.",
+      "author": "Sethani",
+      "category": "People",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.1.1"
+        },
+        "optionalModules": {
+          "cameras": "^2.0.0",
+          "source-modules": "^1.0.0",
+          "universal-overlay": "^1.0.0"
+        },
+        "capabilities": {},
+        "companion": ">=1.3.1"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Reactive Guests - Initialize",
+          "Reactive Guests - Save",
+          "Reactive Guests - Toggle",
+          "Reactive Guests - Delete",
+          "Reactive Guests - Assign Camera2",
+          "Reactive Guests - Engine",
+          "Reactive Guests - Health",
+          "Reactive Guests - Configure",
+          "Reactive Guests - Move"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/reactive-v2.1.0/reactive-2.1.0.streammodule",
+        "sha256": "311ea82ae8bb3e5f6173ad00adcc7038be5c35cda32cabc8747364481d485646"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "11c10d600af9de2eff750483db483aac5cdb4b80"
+      }
+    },
+    {
       "id": "redeem-checklist",
       "name": "Redeem Checklist",
       "version": "1.0.0",

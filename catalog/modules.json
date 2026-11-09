@@ -309,7 +309,7 @@
     {
       "id": "phone-deck",
       "name": "Phone Deck",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "description": "Editable HTTPS handset deck with independent OBS controls and optional module contributions.",
       "author": "Sethani",
       "category": "Stream",
@@ -329,12 +329,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/phone-deck-v2.0.0/phone-deck-2.0.0.streammodule",
-        "sha256": "ff01412da0152619586ca08f1c19f4b388011365706ee898005ce8b1d13ebdae"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/phone-deck-v2.0.1/phone-deck-2.0.1.streammodule",
+        "sha256": "e931c2447b7df1d58fc4a4b39bec3e13e5ef2f0f34668051d72b59449287b71a"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "233e5b17fe7527196ffcd8a9786ae793b032c975"
+        "commit": "f68c477b03d91f89ab738c843a318368ec7fc366"
       }
     },
     {

@@ -723,13 +723,13 @@
     {
       "id": "universal-overlay",
       "name": "Universal Overlay",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Manifest-driven browser overlay with explicit scene routing.",
       "author": "Sethani",
       "category": "System",
       "dependencies": {
         "modules": {
-          "universal-dock": "^1.0.0"
+          "universal-dock": "^1.1.2"
         },
         "optionalModules": {},
         "capabilities": {},
@@ -743,12 +743,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/universal-overlay-v1.0.0/universal-overlay-1.0.0.streammodule",
-        "sha256": "0a42fb4005cb8a9879e949389bbfba79c677890d6f8eb9a3bf36f8b98335ccbd"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/universal-overlay-v1.0.1/universal-overlay-1.0.1.streammodule",
+        "sha256": "04144da72c77566f78a8055e5a7f77987405afe8f479e7721b7062330f86e3b5"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "9ee80f7bbdb7369730264357b07c76f5168f89f1"
+        "commit": "8857143918ad7c5f8e00822539e38c6c9b5d814c"
       }
     },
     {

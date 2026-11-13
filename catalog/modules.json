@@ -380,7 +380,7 @@
     {
       "id": "reactive",
       "name": "Reactive Guests",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "description": "The established ordered reactive guest lineup, private roster and presentation controls.",
       "author": "Sethani",
       "category": "People",
@@ -412,12 +412,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/reactive-v2.1.0/reactive-2.1.0.streammodule",
-        "sha256": "311ea82ae8bb3e5f6173ad00adcc7038be5c35cda32cabc8747364481d485646"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/reactive-v2.1.1/reactive-2.1.1.streammodule",
+        "sha256": "ef522f377eb35d52a52650cad7953bb4be34fa48b15f89a29da68c3cd45ebd2e"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "11c10d600af9de2eff750483db483aac5cdb4b80"
+        "commit": "906c57da69e3c0435c903f4670a13c36fcb12f42"
       }
     },
     {

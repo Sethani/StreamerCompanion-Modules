@@ -502,7 +502,7 @@
     {
       "id": "scene-bindings",
       "name": "Scene Links",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "description": "Existing scene-linked Twitch categories and Windows window focus.",
       "author": "Sethani",
       "category": "Stream",
@@ -530,12 +530,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/scene-bindings-v2.0.2/scene-bindings-2.0.2.streammodule",
-        "sha256": "346379c62eacbad879672045aa29ffe3fa32656392548a5aab2382586490328c"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/scene-bindings-v2.0.3/scene-bindings-2.0.3.streammodule",
+        "sha256": "23af42e9e459bf1cd801a219ba9a0fb0817984945e612d6355b0007806bf4a77"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "0bc2b17f410c6c1b2a645605e357d19d4926d431"
+        "commit": "906c57da69e3c0435c903f4670a13c36fcb12f42"
       }
     },
     {

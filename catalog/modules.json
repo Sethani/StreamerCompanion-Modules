@@ -423,7 +423,7 @@
     {
       "id": "redeem-checklist",
       "name": "Redeem Checklist",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Private dock management for pending channel-point requests with coordinated Named Timers language routing.",
       "author": "Sethani",
       "category": "People",
@@ -434,7 +434,7 @@
         },
         "optionalModules": {},
         "capabilities": {},
-        "companion": ">=1.3.0"
+        "companion": ">=1.3.1"
       },
       "provides": [],
       "streamerbot": {
@@ -452,12 +452,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/redeem-checklist-v1.0.0/redeem-checklist-1.0.0.streammodule",
-        "sha256": "4260a4f219d43580f8e19d434abf2ed91ffa95b39c7865c549957a41ddd60d9d"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/redeem-checklist-v1.0.1/redeem-checklist-1.0.1.streammodule",
+        "sha256": "8fe7c5dddf5ae2421f7e012377d04cfca04e80ce57f96c1b816a8d4c534088e0"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "ef1190580df387ebe71c4d5fdecdd0ece7443183"
+        "commit": "f5bdeff0ff71c501efc837517ebdaf1115563d3e"
       }
     },
     {

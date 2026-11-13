@@ -693,7 +693,7 @@
     {
       "id": "universal-dock",
       "name": "Universal Dock",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "Installed module controls, shared Streamer.bot transport, and operator tests.",
       "author": "Sethani",
       "category": "System",
@@ -712,12 +712,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/universal-dock-v1.1.1/universal-dock-1.1.1.streammodule",
-        "sha256": "13cd465e593acc54b334bbd5624d68307757e0b661e8b2e6a7527242a2bdf513"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/universal-dock-v1.1.2/universal-dock-1.1.2.streammodule",
+        "sha256": "6a646d9db93bf176526097caf673e2d4107f9ee882153256e3aa80910e1bd13b"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "953271a8c466140f10fc113ee19a886645b61164"
+        "commit": "8857143918ad7c5f8e00822539e38c6c9b5d814c"
       }
     },
     {

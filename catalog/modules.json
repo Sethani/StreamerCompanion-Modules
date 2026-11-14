@@ -541,7 +541,7 @@
     {
       "id": "shoutout-clips",
       "name": "Shoutout Clips",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "description": "Existing Twitch clip presentation, title styling, duration, mute and shared-overlay playback.",
       "author": "Sethani",
       "category": "Effects",
@@ -569,12 +569,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/shoutout-clips-v2.1.0/shoutout-clips-2.1.0.streammodule",
-        "sha256": "1d4db3d19d2c0fa4c96f228afefa41585a2c12fb48b6e8ac5f55d1e72563679f"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/shoutout-clips-v2.1.1/shoutout-clips-2.1.1.streammodule",
+        "sha256": "10af2cd4996ac9b69b3206b2b4ee962b8a34c108bdec1b2daae0e04ab7b93bde"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "2b69694227d2b87824fa00ba5d268a05261b9428"
+        "commit": "d35ae51dd5bf7dcebfbd3004d98806a6f47611c7"
       }
     },
     {

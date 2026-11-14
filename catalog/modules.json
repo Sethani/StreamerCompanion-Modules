@@ -76,7 +76,7 @@
     {
       "id": "bouncing-avatar",
       "name": "Bouncing Avatar",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "The original bouncing image in the combined overlay, with private image uploads and optional colour changes.",
       "author": "Sethani",
       "category": "Effects",
@@ -100,12 +100,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/bouncing-avatar-v1.0.0/bouncing-avatar-1.0.0.streammodule",
-        "sha256": "c096b60962e33f974f54c111b913949857176bc887bc96312f51218751cafe55"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/bouncing-avatar-v1.0.1/bouncing-avatar-1.0.1.streammodule",
+        "sha256": "da1df3a311031579e6ef153c2cd4be4923a8d179738274830bfd1563a890555d"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "5c56ed7e87ba74191217a03ae17846525bfd4628"
+        "commit": "45f69c173fb29d59a59cdb3f474e862bd7a30743"
       }
     },
     {

@@ -74,6 +74,41 @@
       }
     },
     {
+      "id": "bouncing-avatar",
+      "name": "Bouncing Avatar",
+      "version": "1.0.0",
+      "description": "The original bouncing image in the combined overlay, with private image uploads and optional colour changes.",
+      "author": "Sethani",
+      "category": "Effects",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.0.0",
+          "universal-overlay": "^1.0.0",
+          "source-modules": "^1.0.0"
+        },
+        "optionalModules": {},
+        "capabilities": {
+          "embedded-node": "required"
+        },
+        "companion": ">=1.3.1"
+      },
+      "provides": [
+        "bouncing-avatar"
+      ],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": []
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/bouncing-avatar-v1.0.0/bouncing-avatar-1.0.0.streammodule",
+        "sha256": "c096b60962e33f974f54c111b913949857176bc887bc96312f51218751cafe55"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "5c56ed7e87ba74191217a03ae17846525bfd4628"
+      }
+    },
+    {
       "id": "cameras",
       "name": "Cameras",
       "version": "2.0.2",

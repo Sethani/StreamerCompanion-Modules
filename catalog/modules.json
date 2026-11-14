@@ -333,6 +333,39 @@
       }
     },
     {
+      "id": "local-ai",
+      "name": "Local AI",
+      "version": "1.0.0",
+      "description": "Optional local Ollama flavour for raid and shoutout messages, preserving deterministic fallback text.",
+      "author": "Sethani",
+      "category": "Stream",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.0.0"
+        },
+        "optionalModules": {},
+        "capabilities": {
+          "embedded-node": "required"
+        },
+        "companion": ">=1.3.1"
+      },
+      "provides": [
+        "local-ai"
+      ],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": []
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/local-ai-v1.0.0/local-ai-1.0.0.streammodule",
+        "sha256": "2cdc704f08e99bd74deab67b68bfc5194e32ef2a878932564a964b6d2158606c"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "3031091a2fc582475b20dd73d6cb7897787bdf90"
+      }
+    },
+    {
       "id": "named-timers",
       "name": "Named Timers",
       "version": "1.0.1",

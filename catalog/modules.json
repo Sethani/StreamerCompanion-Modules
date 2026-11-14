@@ -263,6 +263,41 @@
       }
     },
     {
+      "id": "embedded-widgets",
+      "name": "Embedded Widgets",
+      "version": "1.0.0",
+      "description": "Private external widgets, including Tangia, in the existing combined overlay.",
+      "author": "Sethani",
+      "category": "Effects",
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.0.0",
+          "universal-overlay": "^1.0.2",
+          "source-modules": "^1.0.2"
+        },
+        "optionalModules": {},
+        "capabilities": {
+          "embedded-node": "required"
+        },
+        "companion": ">=1.3.1"
+      },
+      "provides": [
+        "embedded-widgets"
+      ],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": []
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/embedded-widgets-v1.0.0/embedded-widgets-1.0.0.streammodule",
+        "sha256": "2b4483d6c3bf21249ae834c089cdcaa2c1de26eb6f0b5e132ef61adc6fe97ae1"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "c4e7bfa9560d876f99fc504e6ae8dab136820771"
+      }
+    },
+    {
       "id": "named-timers",
       "name": "Named Timers",
       "version": "1.0.1",

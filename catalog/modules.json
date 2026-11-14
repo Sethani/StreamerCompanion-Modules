@@ -580,7 +580,7 @@
     {
       "id": "source-modules",
       "name": "Source Modules",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Preserved Streamer.bot scene routing for installed module overlays.",
       "author": "Sethani",
       "category": "System",
@@ -605,12 +605,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/source-modules-v1.0.1/source-modules-1.0.1.streammodule",
-        "sha256": "132275b1b49e07fbfbf75baeb0d5c1e28cc7c2e8ab8aa9e3964197145050a13b"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/source-modules-v1.0.2/source-modules-1.0.2.streammodule",
+        "sha256": "2b9196cd0d18985e73b61ffb57e53bf592bc53702da4f031adc2f623e11ec90d"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "7ddd23e560f445d2aa420ae5c3c6bc63a661bf85"
+        "commit": "c4e7bfa9560d876f99fc504e6ae8dab136820771"
       }
     },
     {

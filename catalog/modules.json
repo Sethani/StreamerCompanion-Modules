@@ -821,7 +821,7 @@
     {
       "id": "walk-ons",
       "name": "Walk Ons",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "description": "First-chat viewer entrances with private audio, weighted pools, optional video, and once-per-stream eligibility.",
       "author": "Sethani",
       "category": "People",
@@ -860,12 +860,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/walk-ons-v2.1.1/walk-ons-2.1.1.streammodule",
-        "sha256": "90698ccfb40a2e21279a2747ce705d02453e6e99abf468c105a052028e7305c1"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/walk-ons-v2.1.2/walk-ons-2.1.2.streammodule",
+        "sha256": "582fa5401e6eb9c8d18354fb57b82a734a6fa414df28d20f5b1ec944659500bb"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "d29f77206da37bb4280425671cb7cd36dce1f92d"
+        "commit": "d35ae51dd5bf7dcebfbd3004d98806a6f47611c7"
       }
     },
     {

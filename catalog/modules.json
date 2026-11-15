@@ -221,7 +221,7 @@
     {
       "id": "controller-input",
       "name": "Controller",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "Native controller input and the existing gamepad display in the combined stream overlay.",
       "author": "Sethani",
       "category": "Effects",
@@ -248,12 +248,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/controller-input-v1.1.1/controller-input-1.1.1.streammodule",
-        "sha256": "be6c7740a0a6f220d6af7d8dc334e525d2abde38afeb074a2a2bf3c6f34a1cf1"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/controller-input-v1.1.2/controller-input-1.1.2.streammodule",
+        "sha256": "ee12899500f0be91f4254bd87d6a7745a20b936398f7ea2510ab688407f0b28b"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "58b8cb6efa5e795838be9ac490236bb7d2a50713"
+        "commit": "c580caaa30ef5c237b5bc488f4141f910583b8f3"
       }
     },
     {

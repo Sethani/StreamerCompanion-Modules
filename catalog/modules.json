@@ -664,10 +664,32 @@
     {
       "id": "local-ai",
       "name": "Local AI",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "description": "Optional local Ollama flavour for raid and shoutout messages, preserving deterministic fallback text.",
       "author": "Sethani",
-      "category": "Stream",
+      "category": "System",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "service",
+          "controls": [
+            {
+              "id": "status",
+              "name": "Local AI status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [
+          {
+            "id": "ollama",
+            "name": "Ollama and an installed model",
+            "required": true
+          }
+        ],
+        "legacyRequired": [],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.0.0"
@@ -686,12 +708,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/local-ai-v1.0.0/local-ai-1.0.0.streammodule",
-        "sha256": "2cdc704f08e99bd74deab67b68bfc5194e32ef2a878932564a964b6d2158606c"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/local-ai-v1.0.2/local-ai-1.0.2.streammodule",
+        "sha256": "4f63f37c972f3a0883ba740e57cf68655a8ac1773aa5ac1e7d870d4e73691671"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "3031091a2fc582475b20dd73d6cb7897787bdf90"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

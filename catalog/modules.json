@@ -997,10 +997,40 @@
     {
       "id": "redeem-checklist",
       "name": "Redeem Checklist",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Private dock management for pending channel-point requests with coordinated Named Timers language routing.",
       "author": "Sethani",
       "category": "People",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "complete",
+              "name": "Complete pending redemption",
+              "kind": "form"
+            },
+            {
+              "id": "refund",
+              "name": "Refund pending redemption",
+              "kind": "form"
+            },
+            {
+              "id": "status",
+              "name": "Redeem backlog status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "named-timers",
+          "universal-dock",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "named-timers": "^1.0.0",
@@ -1026,12 +1056,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/redeem-checklist-v1.0.1/redeem-checklist-1.0.1.streammodule",
-        "sha256": "8fe7c5dddf5ae2421f7e012377d04cfca04e80ce57f96c1b816a8d4c534088e0"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/redeem-checklist-v1.0.2/redeem-checklist-1.0.2.streammodule",
+        "sha256": "fc7fa1da81571164aa8d4ccfff66bbbaec0a740f01fccb2f81f96f3e9790d654"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "f5bdeff0ff71c501efc837517ebdaf1115563d3e"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

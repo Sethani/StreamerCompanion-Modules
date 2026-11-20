@@ -1856,10 +1856,42 @@
     {
       "id": "wheel",
       "name": "Wheel",
-      "version": "2.1.2",
-      "description": "Weighted profile wheels with the established editor, animation, result sound and trigger-ready Streamer.bot adapter.",
+      "version": "2.1.4",
+      "description": "Create weighted profile wheels and spin them from the dock, Streamer.bot triggers or Phone Deck.",
       "author": "Sethani",
       "category": "Activities",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "spin",
+              "name": "Spin wheel",
+              "kind": "button"
+            },
+            {
+              "id": "clear",
+              "name": "Clear wheel",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Wheel status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "universal-dock",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": [
+          "source-modules",
+          "universal-overlay"
+        ]
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.1.0"
@@ -1885,12 +1917,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/wheel-v2.1.2/wheel-2.1.2.streammodule",
-        "sha256": "cff7e61d2994495789de41f18eda6f9c75cc2d5e6030f8aa3269509d1192e207"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/wheel-v2.1.4/wheel-2.1.4.streammodule",
+        "sha256": "95296eac8cd913558b12dd573fa7db0c6c3e22b70aaa718f17dc573c777eab1d"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "a9a9092962ce5e630f3db8862047c11ff97dca9b"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     }
   ]

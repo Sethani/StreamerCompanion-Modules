@@ -1040,11 +1040,40 @@
     },
     {
       "id": "video",
-      "name": "Video",
-      "version": "2.2.1",
-      "description": "Owned video playback, titles, presentation settings, and overlay tests.",
+      "name": "Video Player",
+      "version": "2.4.1",
+      "description": "Play local videos with adjustable placement, sound and optional titles.",
       "author": "Sethani",
-      "category": "Effects",
+      "category": "Media",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "play",
+              "name": "Play registered video",
+              "kind": "button"
+            },
+            {
+              "id": "stop",
+              "name": "Stop video",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Video status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "universal-dock",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.0.0",
@@ -1068,12 +1097,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/video-v2.2.1/video-2.2.1.streammodule",
-        "sha256": "d0a5e73d8ee002ea8a5d63aeb11c14c8a265fcb3539e598f117ec275da11a544"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/video-v2.4.1/video-2.4.1.streammodule",
+        "sha256": "ada5dac2e76a2bb8432adcd8d70cf06ece8a77e862f8ddadcc8a7f9f2effbe30"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "a9a9092962ce5e630f3db8862047c11ff97dca9b"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

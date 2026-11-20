@@ -82,10 +82,34 @@
     {
       "id": "audio-routing",
       "name": "Audio Routing",
-      "version": "2.0.1",
-      "description": "Existing OBS live/VOD track classifications, explicit Save/Apply and game-audio toggle.",
+      "version": "2.0.2",
+      "description": "Choose OBS live and VOD audio tracks, save a routing plan and toggle game audio.",
       "author": "Sethani",
       "category": "Stream",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "toggle",
+              "name": "Toggle game audio VOD",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Audio routing status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "streamerbot-websocket",
+          "obs-websocket"
+        ],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.1.1"
@@ -107,12 +131,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/audio-routing-v2.0.1/audio-routing-2.0.1.streammodule",
-        "sha256": "420c17ac311b583cfd790a7ae8036f7ed1cc6e85c08e39aa1ad171c356c28a34"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/audio-routing-v2.0.2/audio-routing-2.0.2.streammodule",
+        "sha256": "1db9f67e49be13add8b3cfbb52ab47cfd23b45477eded9ceee94340375a8b387"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "a9a9092962ce5e630f3db8862047c11ff97dca9b"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

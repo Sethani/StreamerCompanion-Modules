@@ -1514,10 +1514,38 @@
     {
       "id": "stream-launch",
       "name": "Stream Launch",
-      "version": "1.0.1",
-      "description": "Guarded stream startup, Countdown integration, Spotify fades and existing private follow-up actions.",
+      "version": "1.0.3",
+      "description": "Start a guided OBS stream with Countdown, optional Spotify music and follow-up actions.",
       "author": "Sethani",
       "category": "Stream",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "go-live",
+              "name": "Go live (guided)",
+              "kind": "button"
+            },
+            {
+              "id": "progress",
+              "name": "Launch progress",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "universal-dock",
+          "countdown",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": [
+          "spotify",
+          "private-followup-action"
+        ]
+      },
       "dependencies": {
         "modules": {
           "countdown": "^1.1.0",
@@ -1542,12 +1570,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/stream-launch-v1.0.1/stream-launch-1.0.1.streammodule",
-        "sha256": "f8284fb33ff8677f5e0920d26c1e5dfcc4dbf1b09fb8b557b409035d69c1700e"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/stream-launch-v1.0.3/stream-launch-1.0.3.streammodule",
+        "sha256": "19f47a8273713f12f59762880d290d49da039c9ddc3e59865cd5445c5ec8e00a"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "0e48d7891a6b2ddaeafbd7963cffd47896b1fe10"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

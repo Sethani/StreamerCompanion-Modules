@@ -607,10 +607,32 @@
     {
       "id": "embedded-widgets",
       "name": "Embedded Widgets",
-      "version": "1.0.0",
-      "description": "Private external widgets, including Tangia, in the existing combined overlay.",
+      "version": "1.0.2",
+      "description": "Arrange external widgets, including Tangia, in your shared stream overlay.",
       "author": "Sethani",
       "category": "Effects",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "service",
+          "controls": [
+            {
+              "id": "status",
+              "name": "Embedded Widgets setup",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [
+          {
+            "id": "widget-provider",
+            "name": "Widget provider embed URL",
+            "required": false
+          }
+        ],
+        "legacyRequired": [],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.0.0",
@@ -631,12 +653,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/embedded-widgets-v1.0.0/embedded-widgets-1.0.0.streammodule",
-        "sha256": "2b4483d6c3bf21249ae834c089cdcaa2c1de26eb6f0b5e132ef61adc6fe97ae1"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/embedded-widgets-v1.0.2/embedded-widgets-1.0.2.streammodule",
+        "sha256": "d54533d4d6d6cc3618e7f227ae8882c53868d080654d2be0a014ef113f07ffa4"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "c4e7bfa9560d876f99fc504e6ae8dab136820771"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

@@ -1136,10 +1136,37 @@
     {
       "id": "scene-bindings",
       "name": "Scene Links",
-      "version": "2.0.3",
-      "description": "Existing scene-linked Twitch categories and Windows window focus.",
+      "version": "2.0.4",
+      "description": "Link OBS program scenes to Twitch category changes and Windows window focus.",
       "author": "Sethani",
       "category": "Stream",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "apply-link",
+              "name": "Apply saved scene link",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Scene Link status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "streamerbot-websocket",
+          "obs-websocket",
+          "windows-powershell"
+        ],
+        "legacyOptional": [
+          "twitch-broadcaster-token"
+        ]
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.1.1"
@@ -1164,12 +1191,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/scene-bindings-v2.0.3/scene-bindings-2.0.3.streammodule",
-        "sha256": "23af42e9e459bf1cd801a219ba9a0fb0817984945e612d6355b0007806bf4a77"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/scene-bindings-v2.0.4/scene-bindings-2.0.4.streammodule",
+        "sha256": "29f68e6732bd0af739e95626f9f3d5717a9ddb85afdd65da045f36b4a383015d"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "906c57da69e3c0435c903f4670a13c36fcb12f42"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

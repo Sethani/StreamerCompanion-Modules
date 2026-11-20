@@ -854,10 +854,44 @@
     {
       "id": "pokemon-encounters",
       "name": "Pokemon Encounters",
-      "version": "1.7.2",
+      "version": "1.7.6",
       "description": "Shows Pokemon Community Game encounters, type icons, and animated viewer ball throws.",
       "author": "Sethani",
-      "category": "Effects",
+      "category": "Games",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "service",
+          "controls": [
+            {
+              "id": "clear",
+              "name": "Clear encounter",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Pokemon Encounters status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [
+          {
+            "id": "pokemon-community-game",
+            "name": "Pokemon Community Game",
+            "required": true
+          }
+        ],
+        "legacyRequired": [
+          "universal-dock",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": [
+          "pokeapi",
+          "universal-overlay",
+          "source-modules"
+        ]
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.0.0"
@@ -883,12 +917,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/pokemon-encounters-v1.7.2/pokemon-encounters-1.7.2.streammodule",
-        "sha256": "7e7b8ce818c3985ff5baa27a46d969461b40d556d3ff2eebbf79b521cd2d6b7e"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/pokemon-encounters-v1.7.6/pokemon-encounters-1.7.6.streammodule",
+        "sha256": "217d6e2b7f1aca13723929a6660020939fe6ae4da96b3e376e4e7fd2581c5780"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "58b8cb6efa5e795838be9ac490236bb7d2a50713"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

@@ -187,10 +187,39 @@
     {
       "id": "chat-core",
       "name": "Live Chatbox",
-      "version": "1.0.1",
-      "description": "The existing stream-chat design with live chat, moderation, pronouns and PluralMind, independent of the archive.",
+      "version": "1.4.1",
+      "description": "Show Twitch and YouTube chat with moderation, pronouns and PluralMind member details.",
       "author": "Sethani",
       "category": "Chat",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "service",
+          "controls": [
+            {
+              "id": "status",
+              "name": "Live Chatbox connection",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [
+          {
+            "id": "twitch-chat",
+            "name": "Twitch chat connection",
+            "required": false
+          },
+          {
+            "id": "youtube-chat",
+            "name": "YouTube chat connection",
+            "required": false
+          }
+        ],
+        "legacyRequired": [
+          "universal-dock"
+        ],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.0.0"
@@ -210,12 +239,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/chat-core-v1.0.1/chat-core-1.0.1.streammodule",
-        "sha256": "e5384d0ed87ee2ca5e9316a1ab16b15f2408a5a31fd0cf5f663ea5f47bdd884c"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/chat-core-v1.4.1/chat-core-1.4.1.streammodule",
+        "sha256": "bf964dc6fb0365d7000a154d0c313ed5f7ffe03fbbd9f2496d197e3067bcdbd6"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "21ded68a85e029b83482992269ecef3ef39d4e7c"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

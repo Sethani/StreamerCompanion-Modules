@@ -716,11 +716,27 @@
     },
     {
       "id": "source-modules",
-      "name": "Source Modules",
-      "version": "1.0.2",
-      "description": "Preserved Streamer.bot scene routing for installed module overlays.",
+      "name": "Overlay Visibility",
+      "version": "1.1.1",
+      "description": "Choose which overlays appear in all scenes or only selected OBS scenes.",
       "author": "Sethani",
       "category": "System",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "set-mode",
+              "name": "Set saved overlay visibility",
+              "kind": "button"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.0.0"
@@ -742,12 +758,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/source-modules-v1.0.2/source-modules-1.0.2.streammodule",
-        "sha256": "2b9196cd0d18985e73b61ffb57e53bf592bc53702da4f031adc2f623e11ec90d"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/source-modules-v1.1.1/source-modules-1.1.1.streammodule",
+        "sha256": "8bac49c14550dcde0b199203d580c15fb016a639a95eba69510c5d99785c695d"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "c4e7bfa9560d876f99fc504e6ae8dab136820771"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

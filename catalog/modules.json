@@ -928,10 +928,36 @@
     {
       "id": "reactive",
       "name": "Reactive Guests",
-      "version": "2.1.1",
-      "description": "The established ordered reactive guest lineup, private roster and presentation controls.",
+      "version": "2.1.2",
+      "description": "Arrange saved reactive guests, manage lineup visibility and adjust their presentation.",
       "author": "Sethani",
       "category": "People",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "show-guest",
+              "name": "Show saved guest",
+              "kind": "button"
+            },
+            {
+              "id": "hide-guest",
+              "name": "Hide saved guest",
+              "kind": "button"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": [
+          "cameras",
+          "reactive-image-provider"
+        ]
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.1.1"
@@ -960,12 +986,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/reactive-v2.1.1/reactive-2.1.1.streammodule",
-        "sha256": "ef522f377eb35d52a52650cad7953bb4be34fa48b15f89a29da68c3cd45ebd2e"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/reactive-v2.1.2/reactive-2.1.2.streammodule",
+        "sha256": "8f06dc181abca69926c03d01f3f648a837c5badbb3bd391a363f913b1cbc25cf"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "906c57da69e3c0435c903f4670a13c36fcb12f42"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

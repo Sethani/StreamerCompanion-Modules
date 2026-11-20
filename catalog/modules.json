@@ -382,11 +382,29 @@
     },
     {
       "id": "chat-routing",
-      "name": "Chat Routing",
-      "version": "1.0.2",
-      "description": "Shared bot-account chat and reply routing for installed Streamer.bot modules.",
+      "name": "Bot Chat Routing",
+      "version": "1.0.3",
+      "description": "Send Twitch bot messages and replies from installed modules, your own actions or Phone Deck.",
       "author": "Sethani",
       "category": "Chat",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "bot-message",
+              "name": "Send bot message",
+              "kind": "form"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {},
         "optionalModules": {},
@@ -406,12 +424,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/chat-routing-v1.0.2/chat-routing-1.0.2.streammodule",
-        "sha256": "b612a3694b8846b3c087b9a3579527fc310e346c100d57f389cb10f8faa470cb"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/chat-routing-v1.0.3/chat-routing-1.0.3.streammodule",
+        "sha256": "6acf57b19a3153553ec95c59fd5c380a615960fb386aae91f23ddc636c2be07b"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "b59c7983e192d83f9cb66e6672b7ba870bb653f0"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

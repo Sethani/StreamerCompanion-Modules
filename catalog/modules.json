@@ -4,10 +4,52 @@
     {
       "id": "archipelago",
       "name": "Archipelago",
-      "version": "1.0.10",
+      "version": "1.0.12",
       "description": "Choose Controller rooms and slots for a clean progress, logic and activity overlay.",
       "author": "Sethani",
       "category": "Games",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "service",
+          "controls": [
+            {
+              "id": "show",
+              "name": "Show overlay",
+              "kind": "button"
+            },
+            {
+              "id": "hide",
+              "name": "Hide overlay",
+              "kind": "button"
+            },
+            {
+              "id": "refresh",
+              "name": "Refresh selected room",
+              "kind": "button"
+            },
+            {
+              "id": "wake",
+              "name": "Wake selected room",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Archipelago status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [
+          {
+            "id": "archipelago-controller",
+            "name": "Archipelago Controller Room data API",
+            "required": true
+          }
+        ],
+        "legacyRequired": [],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.0.0"
@@ -29,12 +71,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/archipelago-v1.0.10/archipelago-1.0.10.streammodule",
-        "sha256": "2cef9f380278188196b5f6e1efcda5c190be8311b41616a9cde9cc4ffcf6d23a"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/archipelago-v1.0.12/archipelago-1.0.12.streammodule",
+        "sha256": "0cdfd401df9e97240e1c64353a818b086cd3b0892321adc50af5843234a5f0eb"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "58b8cb6efa5e795838be9ac490236bb7d2a50713"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

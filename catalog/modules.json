@@ -715,6 +715,97 @@
       }
     },
     {
+      "id": "sound-player",
+      "name": "Sound Player",
+      "version": "1.1.1",
+      "description": "Play sound effects and weighted sound pools with shared volume and phone controls.",
+      "author": "Sethani",
+      "category": "Media",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "play",
+              "name": "Play sound",
+              "kind": "button"
+            },
+            {
+              "id": "play-picker",
+              "name": "Choose sound to play",
+              "kind": "form"
+            },
+            {
+              "id": "play-pool",
+              "name": "Play weighted sound pool",
+              "kind": "button"
+            },
+            {
+              "id": "stop",
+              "name": "Stop sound",
+              "kind": "button"
+            },
+            {
+              "id": "volume",
+              "name": "Set sound volume",
+              "kind": "form"
+            },
+            {
+              "id": "status",
+              "name": "Sound playback status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "universal-dock",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": [
+          "source-modules",
+          "universal-overlay"
+        ]
+      },
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.1.1"
+        },
+        "optionalModules": {
+          "source-modules": "^1.1.0",
+          "universal-overlay": "^1.1.0"
+        },
+        "capabilities": {},
+        "companion": ">=1.4.0"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.0",
+        "requiredActions": [
+          "Sound Player - Engine",
+          "Sound Player - Initialize",
+          "Sound Player - Health",
+          "Sound Player - Configure",
+          "Sound Player - Play",
+          "Sound Player - Play Pool",
+          "Sound Player - Play Assigned",
+          "Sound Player - Stop",
+          "Sound Player - Set Volume",
+          "Sound Player - Trigger Adapter",
+          "Sound Player - Renderer"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/sound-player-v1.1.1/sound-player-1.1.1.streammodule",
+        "sha256": "b49d484944b500e5849910bc3ffbe6db406e4b3602601ef417149e65792dc2f0"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
+      }
+    },
+    {
       "id": "source-modules",
       "name": "Overlay Visibility",
       "version": "1.1.1",

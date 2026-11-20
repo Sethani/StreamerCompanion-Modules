@@ -153,13 +153,23 @@
     {
       "id": "chat-archive",
       "name": "Chat Archive",
-      "version": "1.0.0",
+      "version": "1.2.1",
       "description": "Private searchable chat history, retention and CSV/JSON exports from the Live Chatbox feed.",
       "author": "Sethani",
       "category": "Chat",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": null,
+        "setup": [],
+        "legacyRequired": [
+          "chat-core",
+          "universal-dock"
+        ],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
-          "chat-core": "^1.0.1",
+          "chat-core": "^1.4.1",
           "universal-dock": "^1.1.0"
         },
         "optionalModules": {},
@@ -176,12 +186,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/chat-archive-v1.0.0/chat-archive-1.0.0.streammodule",
-        "sha256": "5cc7dd19e3a7215141c1c7e5791246485f51e467adb6855863a0daf3e0372287"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/chat-archive-v1.2.1/chat-archive-1.2.1.streammodule",
+        "sha256": "1d1a26d1ce7c655b646f5a2401ded9426ddb43ed961ea75e403981805dffb0db"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "89eb40cb5395367918a7758afb3da0d1a087adf8"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

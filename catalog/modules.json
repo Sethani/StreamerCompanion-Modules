@@ -504,10 +504,72 @@
     {
       "id": "countdown",
       "name": "Countdown",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "Start, pause, resume and clear a countdown in the combined overlay using Streamer.bot state.",
       "author": "Sethani",
       "category": "Stream",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "start",
+              "name": "Start saved countdown",
+              "kind": "button"
+            },
+            {
+              "id": "preset-3",
+              "name": "Start 3-minute countdown",
+              "kind": "button"
+            },
+            {
+              "id": "preset-5",
+              "name": "Start 5-minute countdown",
+              "kind": "button"
+            },
+            {
+              "id": "custom",
+              "name": "Start custom countdown",
+              "kind": "form"
+            },
+            {
+              "id": "configure",
+              "name": "Save countdown settings",
+              "kind": "form"
+            },
+            {
+              "id": "pause",
+              "name": "Pause countdown",
+              "kind": "button"
+            },
+            {
+              "id": "resume",
+              "name": "Resume countdown",
+              "kind": "button"
+            },
+            {
+              "id": "clear",
+              "name": "Clear countdown",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Countdown status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "universal-dock",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": [
+          "universal-overlay",
+          "source-modules"
+        ]
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.0.0"
@@ -534,12 +596,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/countdown-v1.1.1/countdown-1.1.1.streammodule",
-        "sha256": "b3c22ea079731f08f5e9f121656b448b36ac95178f1f025afaf6c84884d2b617"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/countdown-v1.1.2/countdown-1.1.2.streammodule",
+        "sha256": "8c9725629c545e8b7e32f6bdec0f4a91ad54c8013a4a8ba405c2e06a992f60b9"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "0e48d7891a6b2ddaeafbd7963cffd47896b1fe10"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

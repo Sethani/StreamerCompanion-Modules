@@ -434,11 +434,42 @@
     },
     {
       "id": "controller-input",
-      "name": "Controller",
-      "version": "1.1.2",
-      "description": "Native controller input and the existing gamepad display in the combined stream overlay.",
+      "name": "Controller Display",
+      "version": "1.1.4",
+      "description": "Show controller buttons and sticks in your stream overlay using Windows XInput.",
       "author": "Sethani",
-      "category": "Effects",
+      "category": "Games",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "service",
+          "controls": [
+            {
+              "id": "show",
+              "name": "Show overlay",
+              "kind": "button"
+            },
+            {
+              "id": "hide",
+              "name": "Hide overlay",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Controller status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "universal-dock"
+        ],
+        "legacyOptional": [
+          "universal-overlay",
+          "source-modules"
+        ]
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.0.0"
@@ -462,12 +493,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/controller-input-v1.1.2/controller-input-1.1.2.streammodule",
-        "sha256": "ee12899500f0be91f4254bd87d6a7745a20b936398f7ea2510ab688407f0b28b"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/controller-input-v1.1.4/controller-input-1.1.4.streammodule",
+        "sha256": "cf64e4f6fc1462d31c0afff0e19610ff1fc71adef69a85aa8a827074895d4a59"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "c580caaa30ef5c237b5bc488f4141f910583b8f3"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

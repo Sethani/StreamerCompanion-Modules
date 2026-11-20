@@ -193,10 +193,51 @@
     {
       "id": "cameras",
       "name": "Cameras",
-      "version": "2.0.2",
-      "description": "Native OBS camera modes, private source mappings and read-only scene inventory.",
+      "version": "2.0.5",
+      "description": "Switch OBS camera modes and map existing scenes and sources.",
       "author": "Sethani",
       "category": "Stream",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "main-mode",
+              "name": "Set main camera mode",
+              "kind": "button"
+            },
+            {
+              "id": "secondary-mode",
+              "name": "Set Camera 2 mode",
+              "kind": "button"
+            },
+            {
+              "id": "secondary-video",
+              "name": "Use OBS video source on Camera 2",
+              "kind": "button"
+            },
+            {
+              "id": "assign-guest",
+              "name": "Assign Reactive guest to Camera 2",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Camera modes",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "streamerbot-websocket",
+          "obs-websocket"
+        ],
+        "legacyOptional": [
+          "reactive"
+        ]
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.1.1"
@@ -224,12 +265,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/cameras-v2.0.2/cameras-2.0.2.streammodule",
-        "sha256": "248181ed8383bda305698f422535bc2606d83553542c3ef088696c642a9de441"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/cameras-v2.0.5/cameras-2.0.5.streammodule",
+        "sha256": "6a9907da5cc1d33b92dc772ef6357ec140be3b99a98884d559f90d62d4f7c6c2"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "906c57da69e3c0435c903f4670a13c36fcb12f42"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

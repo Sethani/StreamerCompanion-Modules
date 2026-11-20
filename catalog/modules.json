@@ -883,10 +883,17 @@
     {
       "id": "universal-overlay",
       "name": "Universal Overlay",
-      "version": "1.0.2",
-      "description": "Manifest-driven browser overlay with explicit scene routing.",
+      "version": "1.1.1",
+      "description": "Combine supported overlays in one OBS browser source with scene visibility controls.",
       "author": "Sethani",
       "category": "System",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": null,
+        "setup": [],
+        "legacyRequired": [],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.1.2"
@@ -903,12 +910,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/universal-overlay-v1.0.2/universal-overlay-1.0.2.streammodule",
-        "sha256": "96d96328742b329d5b25c6b34912550382332b20a9f0f3292e903b6522142333"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/universal-overlay-v1.1.1/universal-overlay-1.1.1.streammodule",
+        "sha256": "1cd9c3984f916ef1afa71c0490b27a185eafad14a91b6fb2fb208560695c82e6"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "c4e7bfa9560d876f99fc504e6ae8dab136820771"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

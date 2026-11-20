@@ -142,10 +142,26 @@
     {
       "id": "bouncing-avatar",
       "name": "Bouncing Avatar",
-      "version": "1.0.1",
-      "description": "The original bouncing image in the combined overlay, with private image uploads and optional colour changes.",
+      "version": "1.0.2",
+      "description": "A bouncing image with private uploads, scene visibility and optional colour changes.",
       "author": "Sethani",
       "category": "Effects",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "service",
+          "controls": [
+            {
+              "id": "status",
+              "name": "Bouncing Avatar status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.0.0",
@@ -166,12 +182,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/bouncing-avatar-v1.0.1/bouncing-avatar-1.0.1.streammodule",
-        "sha256": "da1df3a311031579e6ef153c2cd4be4923a8d179738274830bfd1563a890555d"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/bouncing-avatar-v1.0.2/bouncing-avatar-1.0.2.streammodule",
+        "sha256": "052d67f68db6c53fe01188c14f5b26bf709145ed5f30fcef6bc416670495f40d"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "45f69c173fb29d59a59cdb3f474e862bd7a30743"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

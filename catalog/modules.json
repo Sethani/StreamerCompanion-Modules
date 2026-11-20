@@ -1417,10 +1417,69 @@
     {
       "id": "spotify",
       "name": "Spotify Music",
-      "version": "2.0.4",
+      "version": "2.0.7",
       "description": "Spotify playback, countdown fading, scene-owned music, and viewer song information.",
       "author": "Sethani",
-      "category": "Stream",
+      "category": "Media",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "service",
+          "controls": [
+            {
+              "id": "resume",
+              "name": "Resume playback",
+              "kind": "button"
+            },
+            {
+              "id": "pause",
+              "name": "Pause playback",
+              "kind": "button"
+            },
+            {
+              "id": "toggle",
+              "name": "Play / pause",
+              "kind": "button"
+            },
+            {
+              "id": "next",
+              "name": "Next track",
+              "kind": "button"
+            },
+            {
+              "id": "previous",
+              "name": "Previous track",
+              "kind": "button"
+            },
+            {
+              "id": "volume",
+              "name": "Set volume",
+              "kind": "form"
+            },
+            {
+              "id": "volume-preset",
+              "name": "Volume preset",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Spotify playback status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "streaming-companion",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": [
+          "spotify-account",
+          "obs-scenes",
+          "countdown",
+          "chat-routing"
+        ]
+      },
       "dependencies": {
         "modules": {},
         "optionalModules": {},
@@ -1444,12 +1503,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/spotify-v2.0.4/spotify-2.0.4.streammodule",
-        "sha256": "6341614d8b7ab49ba852c17e839c07e857fa789610f98677e9859212f7ddc862"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/spotify-v2.0.7/spotify-2.0.7.streammodule",
+        "sha256": "189848495433dc5a9737a2c950f6de13713bfd455d47ad871e1ee8b123dd8ac4"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "8857143918ad7c5f8e00822539e38c6c9b5d814c"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

@@ -791,10 +791,42 @@
     {
       "id": "phone-deck",
       "name": "Phone Deck",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "description": "Editable HTTPS handset deck with independent OBS controls and optional module contributions.",
       "author": "Sethani",
       "category": "Stream",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "title",
+              "name": "Set stream title",
+              "kind": "form"
+            },
+            {
+              "id": "category",
+              "name": "Set game category",
+              "kind": "form"
+            },
+            {
+              "id": "custom-action",
+              "name": "Run custom Streamer.bot action",
+              "kind": "button"
+            }
+          ]
+        },
+        "setup": [
+          {
+            "id": "obs-websocket",
+            "name": "OBS WebSocket connection",
+            "required": true
+          }
+        ],
+        "legacyRequired": [],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {},
         "optionalModules": {},
@@ -811,12 +843,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/phone-deck-v2.0.4/phone-deck-2.0.4.streammodule",
-        "sha256": "531939c16da4e02e12974b9c59a5d9f889b28313126fb73641cc01a7d4fbe5b1"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/phone-deck-v2.0.5/phone-deck-2.0.5.streammodule",
+        "sha256": "f8500342cc539c6db2b7e1862be5430b43bf999c115ca767377a690d76bc2a91"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "b902b0162138e053b127824886174d3840c36c51"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

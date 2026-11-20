@@ -719,10 +719,38 @@
     {
       "id": "named-timers",
       "name": "Named Timers",
-      "version": "1.0.1",
-      "description": "Named and queued language timers using the established Streamer.bot globals, chat command and transparent overlay.",
+      "version": "1.0.3",
+      "description": "Create named timers and manage queued language timing with chat and shared-overlay controls.",
       "author": "Sethani",
       "category": "Activities",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "create",
+              "name": "Create or extend named timer",
+              "kind": "form"
+            },
+            {
+              "id": "status",
+              "name": "Named timer status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "chat-routing",
+          "universal-dock",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": [
+          "source-modules",
+          "universal-overlay"
+        ]
+      },
       "dependencies": {
         "modules": {
           "chat-routing": "^1.0.1",
@@ -752,12 +780,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/named-timers-v1.0.1/named-timers-1.0.1.streammodule",
-        "sha256": "05b9f7cfb763b6f3213f4a3ab34034ccb5596bf7b28217c2c73db2e7f2c6f83f"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/named-timers-v1.0.3/named-timers-1.0.3.streammodule",
+        "sha256": "115ffd15b3bf15790a6318753a99ecaa021118dd95d04aa4f2009c5597d9490e"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "f5bdeff0ff71c501efc837517ebdaf1115563d3e"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

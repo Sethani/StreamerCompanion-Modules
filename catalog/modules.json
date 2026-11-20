@@ -1108,10 +1108,54 @@
     {
       "id": "walk-ons",
       "name": "Walk Ons",
-      "version": "2.1.2",
-      "description": "First-chat viewer entrances with private audio, weighted pools, optional video, and once-per-stream eligibility.",
+      "version": "3.0.2",
+      "description": "Give viewers a sound or video entrance on their first chat message each stream.",
       "author": "Sethani",
       "category": "People",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "test",
+              "name": "Test saved entrance",
+              "kind": "button"
+            },
+            {
+              "id": "test-picker",
+              "name": "Choose entrance to test",
+              "kind": "form"
+            },
+            {
+              "id": "stop",
+              "name": "Stop walk-on sound",
+              "kind": "button"
+            },
+            {
+              "id": "reset",
+              "name": "Reset all walk-on eligibility",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Walk-on session status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "universal-dock",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": [
+          "source-modules",
+          "universal-overlay",
+          "video",
+          "sound-player"
+        ]
+      },
       "dependencies": {
         "modules": {
           "universal-dock": "^1.1.1"
@@ -1119,10 +1163,11 @@
         "optionalModules": {
           "source-modules": "^1.0.0",
           "universal-overlay": "^1.0.0",
-          "video": "^2.2.0"
+          "video": "^2.3.0",
+          "sound-player": "^1.0.0"
         },
         "capabilities": {},
-        "companion": ">=1.3.1"
+        "companion": ">=1.4.0"
       },
       "provides": [],
       "streamerbot": {
@@ -1147,12 +1192,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/walk-ons-v2.1.2/walk-ons-2.1.2.streammodule",
-        "sha256": "582fa5401e6eb9c8d18354fb57b82a734a6fa414df28d20f5b1ec944659500bb"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/walk-ons-v3.0.2/walk-ons-3.0.2.streammodule",
+        "sha256": "56ee01bd65fa95f89cb97bf522fc43f00cb10f1633acd375a57cb6084d183867"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "d35ae51dd5bf7dcebfbd3004d98806a6f47611c7"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

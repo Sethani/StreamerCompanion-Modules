@@ -1656,10 +1656,19 @@
     {
       "id": "update-probe",
       "name": "Update Probe",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Tests module installation and updates without connecting to stream services.",
       "author": "Sethani",
       "category": "System",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": null,
+        "setup": [],
+        "legacyRequired": [
+          "streaming-companion"
+        ],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {},
         "optionalModules": {},
@@ -1674,12 +1683,12 @@
         "requiredActions": []
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/update-probe-v1.0.2/update-probe-1.0.2.streammodule",
-        "sha256": "8c2ddeb18599dfc1a9d0edf472e80e6ab9af6a633ba4567781aae52b75440739"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/update-probe-v1.0.3/update-probe-1.0.3.streammodule",
+        "sha256": "0c3630f886ec8d9838682e48cbc446882431c20dd5f6dfb5d703add8ea4340f9"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "22afd6a912a3cfb0386e6c1d85d3e749aafd92e4"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

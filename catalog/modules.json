@@ -1067,10 +1067,40 @@
     {
       "id": "reminders",
       "name": "Reminders",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Private viewer reminder backlogs with chat commands and dock-only management.",
       "author": "Sethani",
       "category": "People",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "add",
+              "name": "Add reminder",
+              "kind": "form"
+            },
+            {
+              "id": "complete",
+              "name": "Complete unfinished reminder",
+              "kind": "form"
+            },
+            {
+              "id": "status",
+              "name": "Reminder backlog status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "chat-routing",
+          "universal-dock",
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": []
+      },
       "dependencies": {
         "modules": {
           "chat-routing": "^1.0.1",
@@ -1095,12 +1125,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/reminders-v1.0.2/reminders-1.0.2.streammodule",
-        "sha256": "9e5d1f52b4d1aea04bfa0e2c52b5b94521587bdb457dc7c3a9facb339c7d8184"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/reminders-v1.0.3/reminders-1.0.3.streammodule",
+        "sha256": "ab96ad24eaa7eb7a71c3d7d4c9f8be5cb030c156d720e61957de4a8fcce0e1a9"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "f5bdeff0ff71c501efc837517ebdaf1115563d3e"
+        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
       }
     },
     {

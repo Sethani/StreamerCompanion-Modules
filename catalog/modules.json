@@ -191,6 +191,96 @@
       }
     },
     {
+      "id": "brb-rotation",
+      "name": "BRB Rotation",
+      "version": "1.0.1",
+      "description": "Mix selected videos, followed-channel clips and self clips until you return.",
+      "author": "Sethani",
+      "category": "Media",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "start",
+              "name": "Start BRB rotation",
+              "kind": "button"
+            },
+            {
+              "id": "stop",
+              "name": "Stop BRB rotation",
+              "kind": "button"
+            },
+            {
+              "id": "toggle",
+              "name": "Toggle BRB rotation",
+              "kind": "button"
+            },
+            {
+              "id": "refresh",
+              "name": "Refresh followed clips",
+              "kind": "button"
+            },
+            {
+              "id": "clear-pending",
+              "name": "Clear unconfirmed BRB ownership",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "BRB rotation status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": []
+      },
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.1.4",
+          "video": "^2.5.0",
+          "self-clips": "^1.0.1",
+          "shoutout-clips": "^2.2.1"
+        },
+        "optionalModules": {
+          "phone-deck": "^2.0.5"
+        },
+        "capabilities": {},
+        "companion": ">=1.4.1"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.7",
+        "requiredActions": [
+          "BRB - Engine",
+          "BRB - Initialize",
+          "BRB - Health",
+          "BRB - Configure",
+          "BRB - Refresh",
+          "BRB - Start",
+          "BRB - Stop",
+          "BRB - Toggle",
+          "BRB - Clear Pending",
+          "BRB - Tick",
+          "BRB - Command Start",
+          "BRB - Command Stop"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/brb-rotation-v1.0.1/brb-rotation-1.0.1.streammodule",
+        "sha256": "4f15837ded26691fc955c723d90e4cfa2e833f8ef7ba5c9116ccbadb56bccd10"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "a4b979a8160e167141ec263febeb30e5b531f647"
+      }
+    },
+    {
       "id": "cameras",
       "name": "Cameras",
       "version": "2.0.5",

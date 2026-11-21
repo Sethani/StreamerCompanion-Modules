@@ -1200,6 +1200,97 @@
       }
     },
     {
+      "id": "self-clips",
+      "name": "Self Clip Shoutouts",
+      "version": "1.0.1",
+      "description": "Play your clips without repeats, with saved cycle history and phone controls.",
+      "author": "Sethani",
+      "category": "Media",
+      "integrations": {
+        "schemaVersion": 1,
+        "phoneDeck": {
+          "transport": "streamerbot",
+          "controls": [
+            {
+              "id": "play-next",
+              "name": "Play next self clip",
+              "kind": "button"
+            },
+            {
+              "id": "refresh",
+              "name": "Refresh own clips",
+              "kind": "button"
+            },
+            {
+              "id": "return-last",
+              "name": "Return last clip to unused",
+              "kind": "button"
+            },
+            {
+              "id": "resolve",
+              "name": "Check pending request",
+              "kind": "button"
+            },
+            {
+              "id": "skip-pending",
+              "name": "Skip unconfirmed selection",
+              "kind": "button"
+            },
+            {
+              "id": "stop",
+              "name": "Stop self clip",
+              "kind": "button"
+            },
+            {
+              "id": "status",
+              "name": "Self clip cycle status",
+              "kind": "widget"
+            }
+          ]
+        },
+        "setup": [],
+        "legacyRequired": [
+          "streamerbot-websocket"
+        ],
+        "legacyOptional": []
+      },
+      "dependencies": {
+        "modules": {
+          "universal-dock": "^1.1.4",
+          "shoutout-clips": "^2.2.1"
+        },
+        "optionalModules": {
+          "phone-deck": "^2.0.5"
+        },
+        "capabilities": {},
+        "companion": ">=1.4.1"
+      },
+      "provides": [],
+      "streamerbot": {
+        "minimumVersion": "1.0.7",
+        "requiredActions": [
+          "Self Clips - Engine",
+          "Self Clips - Initialize",
+          "Self Clips - Health",
+          "Self Clips - Refresh",
+          "Self Clips - Play Next",
+          "Self Clips - Return Last",
+          "Self Clips - Resolve Pending",
+          "Self Clips - Skip Pending",
+          "Self Clips - Stop",
+          "Self Clips - Show Clips"
+        ]
+      },
+      "package": {
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/self-clips-v1.0.1/self-clips-1.0.1.streammodule",
+        "sha256": "ac54d11a3bfe70a7c0422cc3a2287d7f02cbab7a59905f1319eff730f155c9c2"
+      },
+      "source": {
+        "repository": "Sethani/StreamerCompanion",
+        "commit": "a4b979a8160e167141ec263febeb30e5b531f647"
+      }
+    },
+    {
       "id": "shoutout-clips",
       "name": "Shoutout Clips",
       "version": "2.2.1",

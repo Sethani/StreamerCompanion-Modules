@@ -1694,7 +1694,7 @@
     {
       "id": "video",
       "name": "Video Player",
-      "version": "2.4.1",
+      "version": "2.5.0",
       "description": "Play local videos with adjustable placement, sound and optional titles.",
       "author": "Sethani",
       "category": "Media",
@@ -1750,12 +1750,12 @@
         ]
       },
       "package": {
-        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/video-v2.4.1/video-2.4.1.streammodule",
-        "sha256": "ada5dac2e76a2bb8432adcd8d70cf06ece8a77e862f8ddadcc8a7f9f2effbe30"
+        "url": "https://github.com/Sethani/StreamerCompanion-Modules/releases/download/video-v2.5.0/video-2.5.0.streammodule",
+        "sha256": "e4910b2f1e32cc25a242899f33b4ccf80618ab0227b88f1ddb8b5ed5a20da245"
       },
       "source": {
         "repository": "Sethani/StreamerCompanion",
-        "commit": "f6e80c64d5354ccbebfa53aa1e7270a365865514"
+        "commit": "a4b979a8160e167141ec263febeb30e5b531f647"
       }
     },
     {
